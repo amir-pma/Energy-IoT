@@ -1,0 +1,13 @@
+package com.bankino.TariffService;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class TariffServiceApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
