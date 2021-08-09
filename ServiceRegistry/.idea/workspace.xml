@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31d3802-d147-44d0-af20-90cb232e9d60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/CityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/DistrictRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/NeighbourhoodRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/StateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/TariffPlanRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/model/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/model/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/model/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/model/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/model/TariffPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/model/TariffPlan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/EnergyMeterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/CountryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/service/EnergyMeterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/controller/EnergyMeterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/controller/TariffController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/service/TariffService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
