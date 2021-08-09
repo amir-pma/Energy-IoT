@@ -1,5 +1,6 @@
 package com.bankino.TariffService.controller;
 
+import com.bankino.TariffService.dto.*;
 import com.bankino.TariffService.model.*;
 import com.bankino.TariffService.service.TariffService;
 import org.springframework.web.bind.annotation.*;
@@ -20,8 +21,8 @@ public class TariffController {
     }
 
     @PostMapping("/country")
-    public Country saveCountry(@RequestBody Country country) {
-        return tariffService.saveCountry(country);
+    public Country saveCountry(@RequestBody CountryDTO countryDTO) {
+        return tariffService.saveCountry(countryDTO);
     }
 
     @DeleteMapping("/country/{countryId}")
@@ -30,8 +31,8 @@ public class TariffController {
     }
 
     @PostMapping("/city")
-    public City saveCity(@RequestBody City city) {
-        return tariffService.saveCity(city);
+    public City saveCity(@RequestBody CityDTO cityDTO) {
+        return tariffService.saveCity(cityDTO);
     }
 
     @DeleteMapping("/city/{cityId}")
@@ -40,8 +41,8 @@ public class TariffController {
     }
 
     @PostMapping("/state")
-    public State saveState(@RequestBody State state) {
-        return tariffService.saveState(state);
+    public State saveState(@RequestBody StateDTO stateDTO) {
+        return tariffService.saveState(stateDTO);
     }
 
     @DeleteMapping("/city/{stateId}")
@@ -50,8 +51,8 @@ public class TariffController {
     }
 
     @PostMapping("/district")
-    public District saveDistrict(@RequestBody District district) {
-        return tariffService.saveDistrict(district);
+    public District saveDistrict(@RequestBody DistrictDTO districtDTO) {
+        return tariffService.saveDistrict(districtDTO);
     }
 
     @DeleteMapping("/district/{districtId}")
@@ -60,8 +61,8 @@ public class TariffController {
     }
 
     @PostMapping("/neighbourhood")
-    public Neighbourhood saveNeighbourhood(@RequestBody Neighbourhood neighbourhood) {
-        return tariffService.saveNeighbourhood(neighbourhood);
+    public Neighbourhood saveNeighbourhood(@RequestBody NeighbourhoodDTO neighbourhoodDTO) {
+        return tariffService.saveNeighbourhood(neighbourhoodDTO);
     }
 
     @DeleteMapping("/neighbourhood/{neighbourhoodId}")
