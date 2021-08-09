@@ -10,11 +10,11 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 @Entity
-@Table(name = "countries")
+@Table(name = "cities")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Country {
+public class City {
 
     @Id
     private Long id;
@@ -25,11 +25,19 @@ public class Country {
     private String name;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "tariffId", nullable = false)
+    @JoinColumn(name = "tariffId", nullable = true)
     @JsonIgnore
     private TariffPlan tariffPlan;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "stateId", nullable = false)
+    @JsonIgnore
+    private State state;
+
     public TariffPlan getTariffPlan() {
+        if(tariffPlan == null)
+            return state.getTariffPlan();
         return tariffPlan;
     }
+
 }
