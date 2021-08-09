@@ -34,10 +34,10 @@ public class City {
     @JsonIgnore
     private State state;
 
-    public TariffPlan getTariffPlan() {
+    public double getTariffPlanCost() {
         if(tariffPlan == null)
-            return state.getTariffPlan();
-        return tariffPlan;
+            return state.getTariffPlanCost();
+        return tariffPlan.getCostPerKWH();
     }
 
 }

@@ -34,10 +34,10 @@ public class District {
     @JsonIgnore
     private City city;
 
-    public TariffPlan getTariffPlan() {
+    public double getTariffPlanCost() {
         if(tariffPlan == null)
-            return city.getTariffPlan();
-        return tariffPlan;
+            return city.getTariffPlanCost();
+        return tariffPlan.getCostPerKWH();
     }
 
 }

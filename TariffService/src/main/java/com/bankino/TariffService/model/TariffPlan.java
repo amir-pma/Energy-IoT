@@ -23,4 +23,7 @@ public class TariffPlan {
     @Column(name = "costPerKWH")
     private double costPerKWH;
 
+    public double getCostPerKWH() {
+        return costPerKWH;
+    }
 }

@@ -29,7 +29,7 @@ public class Country {
     @JsonIgnore
     private TariffPlan tariffPlan;
 
-    public TariffPlan getTariffPlan() {
-        return tariffPlan;
+    public double getTariffPlanCost() {
+        return tariffPlan.getCostPerKWH();
     }
 }
