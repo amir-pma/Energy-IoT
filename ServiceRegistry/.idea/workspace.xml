@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31d3802-d147-44d0-af20-90cb232e9d60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/controller/EnergyMeterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/model/EnergyMeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/EnergyMeterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/service/EnergyMeterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TariffService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/TariffServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/TariffServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/model/EnergyMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/model/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/EnergyMeterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/EnergyMeterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/service/EnergyMeterService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628512998931</updated>
-      <workItem from="1628513000461" duration="1415000" />
+      <workItem from="1628513000461" duration="1504000" />
     </task>
     <servers />
   </component>

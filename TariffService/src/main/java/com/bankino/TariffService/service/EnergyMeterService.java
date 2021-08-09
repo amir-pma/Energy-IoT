@@ -2,7 +2,7 @@ package com.bankino.TariffService.service;
 
 
 
-import com.bankino.TariffService.model.EnergyMeter;
+import com.bankino.TariffService.model.Country;
 import com.bankino.TariffService.repository.EnergyMeterRepository;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +15,7 @@ public class EnergyMeterService {
         this.energyMeterRepository = energyMeterRepository;
     }
 
-    public EnergyMeter saveEnergyMeter(EnergyMeter energyMeter) {
-        return energyMeterRepository.save(energyMeter);
+    public Country saveEnergyMeter(Country country) {
+        return energyMeterRepository.save(country);
     }
 }
