@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.sql.Timestamp;
+import java.util.Date;
 
 @Entity
 @Table(name = "meterDatas")
@@ -13,11 +13,12 @@ public class MeterData {
     @Id
     private Long id;
 
+    @Column(name = "timestamp", columnDefinition= "TIMESTAMP WITH TIME ZONE")
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date timestamp;
 
     @NotNull
-    private Timestamp timestamp;
-
-    @NotNull
+    @Column(name = "consumptionKWH")
     private double consumptionKWH;
 
     @ManyToOne(fetch = FetchType.LAZY)
@@ -25,7 +26,7 @@ public class MeterData {
     @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
     private EnergyMeter energyMeter;
 
-    public MeterData(Long id, EnergyMeter energyMeter, @NotNull Timestamp timestamp, @NotNull double consumptionKWH) {
+    public MeterData(Long id, EnergyMeter energyMeter, Date timestamp, @NotNull double consumptionKWH) {
         this.id = id;
         this.energyMeter = energyMeter;
         this.timestamp = timestamp;
@@ -40,11 +41,11 @@ public class MeterData {
         this.id = id;
     }
 
-    public Timestamp getTimestamp() {
+    public Date getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(Timestamp timestamp) {
+    public void setTimestamp(Date timestamp) {
         this.timestamp = timestamp;
     }
 

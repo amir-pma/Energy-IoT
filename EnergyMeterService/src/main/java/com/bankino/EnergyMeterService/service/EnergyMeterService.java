@@ -8,11 +8,14 @@ import com.bankino.EnergyMeterService.repository.EnergyMeterRepository;
 import com.bankino.EnergyMeterService.repository.MeterDataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.Date;
 import java.sql.Timestamp;
 import java.util.List;
 
+@Service
 public class EnergyMeterService {
 
     @Autowired
@@ -33,12 +36,12 @@ public class EnergyMeterService {
         return meterDataRepository.findByEnergyMeterId(energyMeterId);
     }
 
-    public ConsumptionCostResponse findAllMeterDataForEnergyMeterBetween(Long energyMeterId, Timestamp start, Timestamp end) {
+    public ConsumptionCostResponse findAllMeterDataForEnergyMeterBetween(Long energyMeterId, Date start, Date end) {
         List<MeterData> meterDataList = meterDataRepository.findByEnergyMeterIdIsAndTimestampBetween(energyMeterId, start, end);
         return calculateMeterDataListTotalCost(energyMeterId, meterDataList);
     }
 
-    public ConsumptionCostResponse findAllMeterDataForEnergyMeterFromStart(Long energyMeterId, Timestamp start) {
+    public ConsumptionCostResponse findAllMeterDataForEnergyMeterFromStart(Long energyMeterId, Date start) {
         List<MeterData> meterDataList = meterDataRepository.findByEnergyMeterIdIsAndTimestampGreaterThanEqual(energyMeterId, start);
         return calculateMeterDataListTotalCost(energyMeterId, meterDataList);
     }

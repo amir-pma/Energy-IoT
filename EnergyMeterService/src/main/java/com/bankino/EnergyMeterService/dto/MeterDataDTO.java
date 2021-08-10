@@ -1,11 +1,11 @@
 package com.bankino.EnergyMeterService.dto;
 
-import java.sql.Timestamp;
+import java.util.Date;
 
 public class MeterDataDTO {
 
     public Long id;
-    public Timestamp timestamp;
+    public Date timestamp;
     public double consumptionKWH;
     public Long energyMeterId;
 

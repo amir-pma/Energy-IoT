@@ -20,7 +20,7 @@ public class EnergyMeter {
 
     @NotNull
     @NotBlank
-    @Column(name = "name")
+    @Column(name = "neighbourhoodId")
     private String neighbourhoodId;
 
     public Long getId() {
