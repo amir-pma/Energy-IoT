@@ -6,8 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac2b1835-6342-445d-aab0-97ae3409745a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/repository/EnergyMeterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/repository/MeterDataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <updated>1628513034462</updated>
       <workItem from="1628513035664" duration="2260000" />
       <workItem from="1628521459416" duration="461000" />
-      <workItem from="1628521936001" duration="4285000" />
+      <workItem from="1628521936001" duration="4649000" />
     </task>
     <servers />
   </component>
@@ -101,10 +102,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1628521490995" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1628553510416">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1628554190895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1628553510416" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1628554190895" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1628514746596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
