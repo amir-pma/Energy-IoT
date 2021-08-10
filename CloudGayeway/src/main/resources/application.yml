@@ -1,0 +1,36 @@
+server:
+  port: 9191
+
+spring:
+  application:
+    name: CLOUD_GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: energy-meter-service
+          uri: lb://ENERGY-METER-SERVICE
+          predicates:
+            - Path=/energy_meter/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: energy-meter-service
+#                fallbackuri: forward:/energyMeterFallback
+        - id: tariff-service
+          uri: lb://TARIFF-SERVICE
+          predicates:
+            - Path=/tariff/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: tariff-service
+#                fallbackuri: forward:/tariffFallback
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
