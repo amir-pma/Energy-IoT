@@ -11,20 +11,20 @@ spring:
           uri: lb://ENERGY-METER-SERVICE
           predicates:
             - Path=/energy_meter/**
-#          filters:
-#            - name: CircuitBreaker
-#              args:
-#                name: energy-meter-service
-#                fallbackuri: forward:/energyMeterFallback
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: energy-meter-service
+                fallbackuri: forward:/energyMeterFallback
         - id: tariff-service
           uri: lb://TARIFF-SERVICE
           predicates:
             - Path=/tariff/**
-#          filters:
-#            - name: CircuitBreaker
-#              args:
-#                name: tariff-service
-#                fallbackuri: forward:/tariffFallback
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: tariff-service
+                fallbackuri: forward:/tariffFallback
 
 eureka:
   client:
@@ -34,3 +34,17 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
