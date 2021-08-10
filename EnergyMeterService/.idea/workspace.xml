@@ -6,14 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac2b1835-6342-445d-aab0-97ae3409745a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CloudGayeway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CloudGayeway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CloudGayeway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CloudGayeway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CloudGayeway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CloudGayeway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CloudGayeway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CloudGayeway/src/main/java/com/bankino/CloudGayeway/CloudGayewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CloudGayeway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CloudGayeway/src/test/java/com/bankino/CloudGayeway/CloudGayewayApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/Controller/EnergyMeterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/Controller/EnergyMeterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/dto/MeterDataDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/dto/MeterDataDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/model/EnergyMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/model/EnergyMeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/model/MeterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/model/MeterData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/repository/MeterDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/repository/MeterDataRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +89,7 @@
       <workItem from="1628513035664" duration="2260000" />
       <workItem from="1628521459416" duration="461000" />
       <workItem from="1628521936001" duration="4845000" />
-      <workItem from="1628589082940" duration="14744000" />
+      <workItem from="1628589082940" duration="15364000" />
     </task>
     <servers />
   </component>
