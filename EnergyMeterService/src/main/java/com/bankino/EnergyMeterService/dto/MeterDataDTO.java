@@ -4,9 +4,9 @@ import java.sql.Timestamp;
 
 public class MeterDataDTO {
 
-    private Long id;
-    private Timestamp timestamp;
-    private double consumptionKWH;
-    private Long EnergyMeterId;
+    public Long id;
+    public Timestamp timestamp;
+    public double consumptionKWH;
+    public Long energyMeterId;
 
 }
