@@ -16,7 +16,7 @@ public class EnergyMeter {
 
     @NotNull
     @NotBlank
-    @Column(name = "name")
+    @Column(name = "stakeholderEmail")
     private String stakeholderEmail;
 
     @NotNull
