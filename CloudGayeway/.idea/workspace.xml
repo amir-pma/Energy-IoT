@@ -20,15 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e91404a9-880b-4ff5-993d-2c74f4fec5d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/dto/Alert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/dto/MeterDataDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/dto/MeterDataDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/model/EnergyMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/model/EnergyMeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/repository/EnergyMeterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/repository/EnergyMeterRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/dto/MeterDataDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/dto/MeterDataDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/model/EnergyMeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/model/EnergyMeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/repository/EnergyMeterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/repository/EnergyMeterRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/service/EnergyMeterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/service/EnergyMeterService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" afterDir="false" />
@@ -107,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628612286596</updated>
       <workItem from="1628612289593" duration="11590000" />
-      <workItem from="1628676652518" duration="4666000" />
+      <workItem from="1628676652518" duration="5615000" />
     </task>
     <servers />
   </component>
@@ -134,37 +132,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628677843675" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1628702113898">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1628719827587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628702113898" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1628702113898">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628719827587" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1628719827586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628702113898" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1628702113897">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628719827586" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1628719827586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628702113897" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1628702113898">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628719827586" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1628719827586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628702113898" />
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1628702113898">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628719827586" />
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1628719827588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628702113898" />
-    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1628702113898">
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628719827588" />
+    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1628719827588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1628702113898" />
-    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1628702113898">
+    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1628719827588" />
+    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1628719827587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1628702113898" />
-    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1628702113898">
+    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1628719827587" />
+    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1628719827588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1628702113898" />
+    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1628719827588" />
   </component>
 </project>

@@ -13,6 +13,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import javax.transaction.Transactional;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
 
@@ -82,6 +85,9 @@ public class EnergyMeterService {
         if(energyMeterRepository.existsById(meterDataDTO.energyMeterId)) {
             EnergyMeter energyMeter = energyMeterRepository.getById(meterDataDTO.energyMeterId);
             meterData.setEnergyMeter(energyMeter);
+            Date date = new Date();
+            Timestamp timestamp = new Timestamp(date.getTime());
+            energyMeterRepository.setLastDataTimeStampForEnergyMeter(timestamp, meterDataDTO.energyMeterId);
             if(meterDataDTO.consumptionKWH > CONSUMPTION_THRESHOLD) {
                 sendAlertMail(DEFAULT_ALERT_MAIL_SUBJECT, energyMeter.getStakeholderEmail(), CONSUMPTION_THRESHOLD_ALERT_TEXT);
             }
