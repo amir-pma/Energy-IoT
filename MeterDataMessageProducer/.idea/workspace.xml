@@ -20,11 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae6e0f24-c04a-4981-b841-d43069deac4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/config/EmailConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlertService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertService/AlertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/model/Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628684894623</updated>
-      <workItem from="1628684898151" duration="3461000" />
+      <workItem from="1628684898151" duration="3619000" />
     </task>
     <servers />
   </component>
