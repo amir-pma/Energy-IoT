@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: ENERGY-METER-SERVICE
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: meter-data-message
 
 eureka:
   client:

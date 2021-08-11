@@ -19,8 +19,9 @@ public class MessageProducerController {
 
     @PostMapping("/energy_meter/data")
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public void saveMeterData(@RequestBody MeterDataDTO meterDataDTO) {
+    public MeterDataDTO saveMeterData(@RequestBody MeterDataDTO meterDataDTO) {
         kafkaOutput.send(MessageBuilder.withPayload(meterDataDTO).build());
+        return meterDataDTO;
     }
 }
 

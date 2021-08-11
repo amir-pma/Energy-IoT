@@ -5,14 +5,18 @@ import com.bankino.EnergyMeterService.dto.MeterDataDTO;
 import com.bankino.EnergyMeterService.model.EnergyMeter;
 import com.bankino.EnergyMeterService.model.MeterData;
 import com.bankino.EnergyMeterService.service.EnergyMeterService;
+import org.springframework.cloud.stream.annotation.EnableBinding;
+import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.cloud.stream.messaging.Sink;
 
 import java.util.Date;
 import java.util.List;
 
 @RestController
 @RequestMapping("/energy_meter")
+@EnableBinding(Sink.class)
 public class EnergyMeterController {
 
     private final EnergyMeterService energyMeterService;
@@ -20,7 +24,6 @@ public class EnergyMeterController {
     public EnergyMeterController(EnergyMeterService energyMeterService) {
         this.energyMeterService = energyMeterService;
     }
-
 
     @GetMapping("/{energyMeterId}")
     public List<MeterData> findAllMeterDataByEnergyMeterId(@PathVariable Long energyMeterId) {
@@ -50,9 +53,9 @@ public class EnergyMeterController {
         return energyMeterService.deleteEnergyMeter(energyMeterId);
     }
 
-    @PostMapping("/data")
-    public MeterData saveMeterData(@RequestBody MeterDataDTO meterDataDTO) {
-        return energyMeterService.saveMeterData(meterDataDTO);
+    @StreamListener("input")
+    public void saveMeterData(MeterDataDTO meterDataDTO) {
+        energyMeterService.saveMeterData(meterDataDTO);
     }
 
     @DeleteMapping("/data/{meterDataId}")

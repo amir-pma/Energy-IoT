@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e31d3802-d147-44d0-af20-90cb232e9d60" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CloudGayeway/src/main/java/com/bankino/CloudGayeway/controller/FallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudGayeway/src/main/java/com/bankino/CloudGayeway/controller/FallbackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CloudGayeway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudGayeway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/EnergyMeterService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/EnergyMeterService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/Controller/EnergyMeterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/Controller/EnergyMeterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/controller/MessageProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/controller/MessageProducerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +79,7 @@
       <workItem from="1628513000461" duration="6704000" />
       <workItem from="1628589032518" duration="632000" />
       <workItem from="1628589991986" duration="4211000" />
-      <workItem from="1628676637469" duration="2475000" />
+      <workItem from="1628676637469" duration="2979000" />
     </task>
     <servers />
   </component>
