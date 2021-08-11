@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60e45849-31e1-44c8-886c-780d8db7ec60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertService/AlertService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/model/Alert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertService/AlertService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertService/AlertService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
