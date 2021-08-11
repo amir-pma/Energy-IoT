@@ -7,6 +7,15 @@ spring:
   cloud:
     gateway:
       routes:
+        - id: meter-data-message-producer
+          uri: lb://METER-DATA-MESSAGE-PRODUCER
+          predicates:
+            - Path=/energy_meter/data
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: meter-data-message-producer
+                fallbackuri: forward:/meterDataMessageProducerFallback
         - id: energy-meter-service
           uri: lb://ENERGY-METER-SERVICE
           predicates:
