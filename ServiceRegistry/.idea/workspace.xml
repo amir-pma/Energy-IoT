@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60e45849-31e1-44c8-886c-780d8db7ec60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/EnergyMeterService.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/ServiceRegistry/ServiceRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/ServiceRegistry/ServiceRegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/config/EmailConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlertService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,5 +88,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
