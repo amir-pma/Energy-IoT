@@ -5,7 +5,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac2b1835-6342-445d-aab0-97ae3409745a" name="Default Changelist" comment="" />
+    <list default="true" id="ac2b1835-6342-445d-aab0-97ae3409745a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TariffRequestProducer/src/main/java/com/bankino/TariffRequestProducer/controller/TariffRequestProducerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TariffRequestProducer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffRequestProducer/src/main/java/com/bankino/TariffRequestProducer/TariffRequestProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffRequestProducer/src/main/java/com/bankino/TariffRequestProducer/TariffRequestProducerApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
