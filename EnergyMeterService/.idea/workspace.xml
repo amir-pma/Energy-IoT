@@ -6,13 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac2b1835-6342-445d-aab0-97ae3409745a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/controller/AlertController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/AlertService/AlertService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/service/AlertService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/EnergyMeterService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EnergyMeterService.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/dto/MeterDataDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/dto/MeterDataDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/model/MeterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/model/MeterData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/dto/MeterDataDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/dto/MeterDataDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/ServiceRegistry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/ServiceRegistry.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

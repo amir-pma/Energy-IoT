@@ -1,6 +1,6 @@
-package com.bankino.AlertService;
+package com.bankino.AlertService.controller;
 
-import com.bankino.AlertService.AlertService.AlertService;
+import com.bankino.AlertService.service.AlertService;
 import com.bankino.AlertService.model.Alert;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,7 +18,7 @@ public class AlertController {
         this.alertService = alertService;
     }
 
-    @PostMapping("/country")
+    @PostMapping
     public void saveCountry(@RequestBody Alert alert, BindingResult bindingResult) {
         alertService.sendMail(alert, bindingResult);
     }

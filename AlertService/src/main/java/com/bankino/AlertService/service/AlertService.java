@@ -1,9 +1,8 @@
-package com.bankino.AlertService.AlertService;
+package com.bankino.AlertService.service;
 
 import com.bankino.AlertService.config.EmailConfig;
 import com.bankino.AlertService.model.Alert;
 import org.springframework.mail.SimpleMailMessage;
-import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
