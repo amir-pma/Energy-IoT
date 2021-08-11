@@ -1,4 +1,4 @@
-package com.bankino.EnergyMeterService.Controller;
+package com.bankino.EnergyMeterService.controller;
 
 import com.bankino.EnergyMeterService.dto.ConsumptionCostResponse;
 import com.bankino.EnergyMeterService.dto.MeterDataDTO;

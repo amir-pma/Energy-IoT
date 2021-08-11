@@ -31,7 +31,10 @@ public class EnergyMeterService {
     private static final String DEFAULT_ALERT_MAIL_SUBJECT = "Alert from EnergyIOT";
     private static final String ENERGY_METER_NOT_ADDED_ALERT_TEXT = "Alert: Energy Meter not added for this meter data!";
     private static final String CONSUMPTION_THRESHOLD_ALERT_TEXT = "Alert: Electricity consumption in data too high!";
+    private static final String DEACTIVATED_TOO_LONG_ALERT_TEXT = "Alert: Energy meter hasn't sent data in a while!";
     private static final double CONSUMPTION_THRESHOLD = 50;
+    private static final long ENERGY_METER_ALLOWED_DEACTIVATED_PERIOD = 60 * 1000; // 6*24*60*60*1000 (6 days)
+
 
     private final EnergyMeterRepository energyMeterRepository;
     private final MeterDataRepository meterDataRepository;
@@ -69,6 +72,8 @@ public class EnergyMeterService {
     }
 
     public EnergyMeter saveEnergyMeter(EnergyMeter energyMeter) {
+        energyMeter.setAlerted(false);
+        energyMeter.setLastDataTimestamp(new Timestamp(new Date().getTime()));
         return energyMeterRepository.save(energyMeter);
     }
 
@@ -85,8 +90,7 @@ public class EnergyMeterService {
         if(energyMeterRepository.existsById(meterDataDTO.energyMeterId)) {
             EnergyMeter energyMeter = energyMeterRepository.getById(meterDataDTO.energyMeterId);
             meterData.setEnergyMeter(energyMeter);
-            Date date = new Date();
-            Timestamp timestamp = new Timestamp(date.getTime());
+            Timestamp timestamp = new Timestamp(new Date().getTime());
             energyMeterRepository.setLastDataTimeStampForEnergyMeter(timestamp, meterDataDTO.energyMeterId);
             if(meterDataDTO.consumptionKWH > CONSUMPTION_THRESHOLD) {
                 sendAlertMail(DEFAULT_ALERT_MAIL_SUBJECT, energyMeter.getStakeholderEmail(), CONSUMPTION_THRESHOLD_ALERT_TEXT);
@@ -102,15 +106,25 @@ public class EnergyMeterService {
         }
     }
 
+    public Boolean deleteMeterData(Long id) {
+        meterDataRepository.deleteById(id);
+        return true;
+    }
+
     private void sendAlertMail(String mailSubject, String toMail, String mailText) {
         System.out.println(mailText);
         Alert alert = new Alert(mailSubject, toMail, mailText);
         restTemplate.postForObject(ALERT_SERVICE_URL, alert, void.class);
     }
 
-    public Boolean deleteMeterData(Long id) {
-        meterDataRepository.deleteById(id);
-        return true;
+    @Transactional
+    public void checkEnergyMeterLastUpdate() {
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis() - ENERGY_METER_ALLOWED_DEACTIVATED_PERIOD);
+        List<EnergyMeter> energyMeters = energyMeterRepository.findByAlertedIsAndLastDataTimestampLessThanEqual(false, timestamp);
+        for(EnergyMeter energyMeter : energyMeters) {
+            sendAlertMail(DEFAULT_ALERT_MAIL_SUBJECT, energyMeter.getStakeholderEmail(), DEACTIVATED_TOO_LONG_ALERT_TEXT + " id: " + energyMeter.getId());
+            energyMeterRepository.setAlertedForEnergyMeter(true, energyMeter.getId());
+        }
     }
 
 }

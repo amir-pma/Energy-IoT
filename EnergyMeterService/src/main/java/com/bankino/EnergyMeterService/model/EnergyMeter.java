@@ -24,7 +24,10 @@ public class EnergyMeter {
 
     @Column(name = "lastDataTimeStamp", columnDefinition= "TIMESTAMP WITH TIME ZONE")
     @Temporal(TemporalType.TIMESTAMP)
-    private Date lastDataTimeStamp;
+    private Date lastDataTimestamp;
+
+    @Column(name = "alerted")
+    private Boolean alerted;
 
     public Long getId() {
         return id;
@@ -36,6 +39,14 @@ public class EnergyMeter {
 
     public String getStakeholderEmail() {
         return stakeholderEmail;
+    }
+
+    public Date getLastDataTimestamp() {
+        return lastDataTimestamp;
+    }
+
+    public void setLastDataTimestamp(Date lastDataTimeStamp) {
+        this.lastDataTimestamp = lastDataTimeStamp;
     }
 
     public void setStakeholderEmail(String stakeholderEmail) {
@@ -53,9 +64,19 @@ public class EnergyMeter {
     public EnergyMeter() {
     }
 
-    public EnergyMeter(Long id, @NotNull @NotBlank String stakeholderEmail, @NotNull @NotBlank String neighbourhoodId) {
+    public Boolean getAlerted() {
+        return alerted;
+    }
+
+    public void setAlerted(Boolean alerted) {
+        this.alerted = alerted;
+    }
+
+    public EnergyMeter(Long id, @NotNull @NotBlank String stakeholderEmail, @NotNull @NotBlank String neighbourhoodId, Date lastDataTimestamp, Boolean alerted) {
         this.id = id;
         this.stakeholderEmail = stakeholderEmail;
         this.neighbourhoodId = neighbourhoodId;
+        this.lastDataTimestamp = lastDataTimestamp;
+        this.alerted = alerted;
     }
 }
