@@ -11,6 +11,7 @@ import java.util.Date;
 public class MeterData {
 
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Long id;
 
     @Column(name = "timestamp", columnDefinition= "TIMESTAMP WITH TIME ZONE")

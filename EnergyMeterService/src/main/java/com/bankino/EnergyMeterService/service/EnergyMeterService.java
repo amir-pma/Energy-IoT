@@ -68,7 +68,6 @@ public class EnergyMeterService {
 
     public MeterData saveMeterData(MeterDataDTO meterDataDTO) {
         MeterData meterData = new MeterData();
-        meterData.setId(meterDataDTO.id);
         meterData.setConsumptionKWH(meterDataDTO.consumptionKWH);
         meterData.setTimestamp(meterDataDTO.timestamp);
         if(meterDataDTO.energyMeterId != null) {
