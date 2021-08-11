@@ -1,21 +1,14 @@
 spring:
   application:
-    name: TARIFF-REQUEST-PRODUCER
+    name: METER-DATA-MESSAGE-PRODUCER
   cloud:
     stream:
       bindings:
         output:
-          destination: tariff-message
-      kafka:
-        binder:
-          zkNodes: zookeeper:2181
-          brokers: kafka:9092
+          destination: meter-data-message
 
 server:
   port: 9195
-
-http:
-  prefix: 'Prefix'
 
 eureka:
   client:
