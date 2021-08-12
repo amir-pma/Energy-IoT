@@ -5,18 +5,24 @@ Overview
 This project is an api for processing energy meters and their data.
 Tools and technologies used by this project: microservices, spring boot, kafka, eureka, hystrix and swagger, flyway, postgres and etc.
 
+<br />
+<br />
 
 Suspicious Senario
 -------------------------
 
 Couldn't find a good suspicous senario that doesn't require machine learning to detect suspicious electricity consumption. The suspicious senario implemented in this project is that an alert will be sent if an energy meter's usage in each week is more than 5 times of it's previous week's usage.
 
+<br />
+<br />
 
 Architecture
 -------------------------
 
 ![alt text](https://github.com/amir-pma/Energy-IoT/blob/5147a09ae0c4b8b448b2bc13a5a107a5470840c8/architecture.jpg)
 
+<br />
+<br />
 
 API Documentation
 -------------------------
@@ -38,6 +44,8 @@ http://localhost:9194/swagger-ui.html
 Meter Data Message Producer Service:
 http://localhost:9195/swagger-ui.html
 
+<br />
+<br />
 
 How To Build And Run
 -------------------------
@@ -53,6 +61,8 @@ How To Build And Run
 4- Run microservices applications in this order:
     a) Service Registry  b) Cloud Gateway  c) Tariff Service  d) Alert Service  e) Meter Data Message Producer Service  f) Energy Meter Service  g) Hystrix Dashboard
 
+<br />
+<br />
 
 Usefull Commands
 -------------------------
