@@ -2,6 +2,9 @@ package com.bankino.AlertService.controller;
 
 import com.bankino.AlertService.service.AlertService;
 import com.bankino.AlertService.model.Alert;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.SwaggerDefinition;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -10,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/alert")
+@Api(description = "REST API for handling alert mails.")
 public class AlertController {
 
     private final AlertService alertService;
@@ -18,8 +22,9 @@ public class AlertController {
         this.alertService = alertService;
     }
 
-    @PostMapping
-    public void saveCountry(@RequestBody Alert alert, BindingResult bindingResult) {
+    @PostMapping("/")
+    @ApiOperation(value = "Sends alert mail.")
+    public void sendMail(@RequestBody Alert alert, BindingResult bindingResult) {
         alertService.sendMail(alert, bindingResult);
     }
 }
