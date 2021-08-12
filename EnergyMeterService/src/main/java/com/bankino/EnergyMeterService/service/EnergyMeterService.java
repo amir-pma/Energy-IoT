@@ -127,4 +127,13 @@ public class EnergyMeterService {
         }
     }
 
+    @Transactional
+    public void checkNeighbourhoodUsage() {
+        restTemplate.getForObject(TARIFF_SERVICE_URL
+    }
+
+    @Transactional
+    public void checkMeterSuspiciousUsage() {
+
+    }
 }

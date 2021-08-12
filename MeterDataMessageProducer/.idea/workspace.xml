@@ -20,22 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae6e0f24-c04a-4981-b841-d43069deac4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/scheduled/EnergyMeterScheduledMonitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/Controller/EnergyMeterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/controller/EnergyMeterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/EnergyMeterServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/EnergyMeterServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/model/EnergyMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/model/EnergyMeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/repository/EnergyMeterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/repository/EnergyMeterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/scheduled/EnergyMeterScheduledMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/scheduled/EnergyMeterScheduledMonitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/Controller/EnergyMeterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/Controller/EnergyMeterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/EnergyMeterServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/EnergyMeterServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/model/EnergyMeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/model/EnergyMeter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/repository/EnergyMeterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/repository/EnergyMeterRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/service/EnergyMeterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/service/EnergyMeterService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/controller/TariffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/controller/TariffController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/NeighbourhoodRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/repository/NeighbourhoodRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/service/TariffService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/service/TariffService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628684894623</updated>
-      <workItem from="1628684898151" duration="5549000" />
+      <workItem from="1628684898151" duration="5605000" />
+      <workItem from="1628764340989" duration="606000" />
     </task>
     <servers />
   </component>
@@ -107,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1628685214030">
@@ -117,37 +113,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628691414866" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1628719833553">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1628726045104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628719833553" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1628719833552">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628726045104" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1628726045104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628719833552" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1628719833552">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628726045104" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1628726045103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628719833552" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1628719833552">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628726045103" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1628726045104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628719833552" />
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1628719833554">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628726045104" />
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1628726045105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628719833554" />
-    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1628719833554">
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628726045105" />
+    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1628726045104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1628719833554" />
-    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1628719833553">
+    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1628726045104" />
+    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1628726045104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1628719833553" />
-    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1628719833554">
+    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1628726045104" />
+    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1628726045105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1628719833554" />
+    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1628726045105" />
   </component>
 </project>

@@ -5,6 +5,8 @@ import com.bankino.TariffService.model.*;
 import com.bankino.TariffService.service.TariffService;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/tariff")
 public class TariffController {
@@ -18,6 +20,11 @@ public class TariffController {
     @GetMapping("/{neighbourhoodId}")
     public double getCostPerKWH(@PathVariable Long neighbourhoodId) {
         return tariffService.getTariffCost(neighbourhoodId);
+    }
+
+    @GetMapping("/neighbourhoodIds")
+    public List<Long> getCostPerKWH() {
+        return tariffService.getAllNeighbourhoodIds();
     }
 
     @PostMapping("/country")

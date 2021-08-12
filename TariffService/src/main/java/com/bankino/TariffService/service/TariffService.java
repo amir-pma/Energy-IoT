@@ -7,6 +7,7 @@ import com.bankino.TariffService.model.*;
 import com.bankino.TariffService.repository.*;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -128,5 +129,9 @@ public class TariffService {
     public Boolean deleteTariffPlan(Long id) {
         tariffPlanRepository.deleteById(id);
         return true;
+    }
+
+    public List<Long> getAllNeighbourhoodIds() {
+        return neighbourhoodRepository.getAllIds();
     }
 }
