@@ -20,15 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e91404a9-880b-4ff5-993d-2c74f4fec5d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/EnergyMeterService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/EnergyMeterService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloudGayeway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CloudGayeway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/CloudGayeway/CloudGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/CloudGayeway/CloudGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankino/CloudGayeway/controller/FallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankino/CloudGayeway/controller/FallbackController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/EnergyMeterServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/EnergyMeterServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/controller/EnergyMeterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/controller/EnergyMeterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/service/EnergyMeterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/service/EnergyMeterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hystrix-Dashboard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hystrix-Dashboard/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hystrix-Dashboard/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Hystrix-Dashboard/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" afterDir="false" />
@@ -107,7 +108,7 @@
       <updated>1628612286596</updated>
       <workItem from="1628612289593" duration="11590000" />
       <workItem from="1628676652518" duration="5948000" />
-      <workItem from="1628764332636" duration="3033000" />
+      <workItem from="1628764332636" duration="3445000" />
     </task>
     <servers />
   </component>
