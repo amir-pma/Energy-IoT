@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae6e0f24-c04a-4981-b841-d43069deac4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/service/AlertService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/service/AlertService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628684894623</updated>
       <workItem from="1628684898151" duration="5605000" />
-      <workItem from="1628764340989" duration="4118000" />
+      <workItem from="1628764340989" duration="4414000" />
     </task>
     <servers />
   </component>

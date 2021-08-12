@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d89df82-2c04-45c1-a924-6786106d0df4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/service/AlertService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/service/AlertService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <workItem from="1628589065348" duration="15000" />
       <workItem from="1628589972736" duration="8338000" />
       <workItem from="1628676472379" duration="763000" />
-      <workItem from="1628764292930" duration="12751000" />
+      <workItem from="1628764292930" duration="13067000" />
     </task>
     <servers />
   </component>

@@ -89,20 +89,26 @@ public class EnergyMeterService {
         if(energyMeterRepository.existsById(meterDataDTO.energyMeterId)) {
             EnergyMeter energyMeter = energyMeterRepository.getById(meterDataDTO.energyMeterId);
             meterData.setEnergyMeter(energyMeter);
-            Timestamp timestamp = new Timestamp(new Date().getTime());
-            energyMeterRepository.setLastDataTimeStampForEnergyMeter(timestamp, meterDataDTO.energyMeterId);
-            if(meterDataDTO.consumptionKWH > CONSUMPTION_THRESHOLD) {
-                sendAlertMail(DEFAULT_ALERT_MAIL_SUBJECT, energyMeter.getStakeholderEmail(), CONSUMPTION_THRESHOLD_ALERT_TEXT);
-            }
+            updateEnergyMeterTimestamp(meterDataDTO);
+            checkThresholdLimit(meterDataDTO, energyMeter.getStakeholderEmail());
             return meterDataRepository.save(meterData);
         }
         else {
             sendAlertMail(DEFAULT_ALERT_MAIL_SUBJECT, DEFAULT_STAKEHOLDER_MAIL, ENERGY_METER_NOT_ADDED_ALERT_TEXT);
-            if(meterDataDTO.consumptionKWH > CONSUMPTION_THRESHOLD) {
-                sendAlertMail(DEFAULT_ALERT_MAIL_SUBJECT, DEFAULT_STAKEHOLDER_MAIL, CONSUMPTION_THRESHOLD_ALERT_TEXT);
-            }
+            checkThresholdLimit(meterDataDTO, DEFAULT_STAKEHOLDER_MAIL);
             return null;
         }
+    }
+
+    private void checkThresholdLimit(MeterDataDTO meterDataDTO, String stakeholderEmail) {
+        if (meterDataDTO.consumptionKWH > CONSUMPTION_THRESHOLD) {
+            sendAlertMail(DEFAULT_ALERT_MAIL_SUBJECT, stakeholderEmail, CONSUMPTION_THRESHOLD_ALERT_TEXT);
+        }
+    }
+
+    private void updateEnergyMeterTimestamp(MeterDataDTO meterDataDTO) {
+        Timestamp timestamp = new Timestamp(new Date().getTime());
+        energyMeterRepository.setLastDataTimeStampForEnergyMeter(timestamp, meterDataDTO.energyMeterId);
     }
 
     public Boolean deleteMeterData(Long id) {
