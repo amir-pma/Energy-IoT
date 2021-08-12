@@ -51,12 +51,12 @@ public class EnergyMeterService {
         return meterDataRepository.findByEnergyMeterId(energyMeterId);
     }
 
-    public ConsumptionCostResponse findAllMeterDataForEnergyMeterBetween(Long energyMeterId, Date start, Date end) {
+    public ConsumptionCostResponse getTotalCostOfMeterDataForEnergyMeterBetween(Long energyMeterId, Date start, Date end) {
         List<MeterData> meterDataList = meterDataRepository.findByEnergyMeterIdIsAndTimestampBetween(energyMeterId, start, end);
         return calculateMeterDataListTotalCost(energyMeterId, meterDataList);
     }
 
-    public ConsumptionCostResponse findAllMeterDataForEnergyMeterFromStart(Long energyMeterId, Date start) {
+    public ConsumptionCostResponse getTotalCostOfMeterDataForEnergyMeterFromStart(Long energyMeterId, Date start) {
         List<MeterData> meterDataList = meterDataRepository.findByEnergyMeterIdIsAndTimestampGreaterThanEqual(energyMeterId, start);
         return calculateMeterDataListTotalCost(energyMeterId, meterDataList);
     }

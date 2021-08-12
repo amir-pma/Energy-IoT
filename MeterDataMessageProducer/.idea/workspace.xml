@@ -21,15 +21,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ae6e0f24-c04a-4981-b841-d43069deac4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/EnergyMeterService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/EnergyMeterService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/EnergyMeterServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/EnergyMeterServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/controller/EnergyMeterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/controller/EnergyMeterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/src/main/java/com/bankino/EnergyMeterService/service/EnergyMeterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/service/EnergyMeterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/target/classes/com/bankino/EnergyMeterService/service/EnergyMeterService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/TariffService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/TariffService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/TariffServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/TariffServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/controller/TariffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/java/com/bankino/TariffService/controller/TariffController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628684894623</updated>
       <workItem from="1628684898151" duration="5605000" />
-      <workItem from="1628764340989" duration="2118000" />
+      <workItem from="1628764340989" duration="2467000" />
     </task>
     <servers />
   </component>
