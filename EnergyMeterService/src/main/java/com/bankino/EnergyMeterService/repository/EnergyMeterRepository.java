@@ -22,4 +22,7 @@ public interface EnergyMeterRepository extends JpaRepository<EnergyMeter, Long> 
 
     List<EnergyMeter> findByAlertedIsAndLastDataTimestampLessThanEqual(Boolean alerted, Timestamp timestamp);
 
+    @Query("select e.id from #{#entityName} e")
+    List<Long> getAllIds();
+
 }

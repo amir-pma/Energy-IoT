@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class EnergyMeterScheduledMonitor {
 
-    private static final long ENERGY_METER_ALLOWED_DEACTIVATED_PERIOD = 60 * 1000; //2*60*60*1000 (2 hours)
-    private static final long CHECK_NEIGHBOURHOOD_USAGE_PERIOD = 2 * 60 * 1000; //1*24*60*60*1000 (1 day)
-    private static final long CHECK_METER_SUSPICIOUS_USAGE_PERIOD = 2 * 60 * 1000; //1*24*60*60*1000 (1 day)
+    private static final long ENERGY_METER_ALLOWED_DEACTIVATED_PERIOD = 2 * 60 * 1000; //2*60*60*1000 (2 hours)
+//    public static final long CHECK_NEIGHBOURHOOD_USAGE_PERIOD = 2 * 60 * 1000; //1*24*60*60*1000 (1 day)
+    private static final long CHECK_METER_SUSPICIOUS_USAGE_PERIOD = 60 * 1000; //1*24*60*60*1000 (1 day)
 
     private final EnergyMeterService energyMeterService;
 
@@ -17,17 +17,17 @@ public class EnergyMeterScheduledMonitor {
         this.energyMeterService = energyMeterService;
     }
 
-    @Scheduled(fixedRate = ENERGY_METER_ALLOWED_DEACTIVATED_PERIOD)
+    @Scheduled(fixedRate = ENERGY_METER_ALLOWED_DEACTIVATED_PERIOD, initialDelay = 30*1000)
     public void checkEnergyMeterLastUpdate() {
         energyMeterService.checkEnergyMeterLastUpdate();
     }
 
-    @Scheduled(fixedRate = CHECK_NEIGHBOURHOOD_USAGE_PERIOD)
-    public void checkNeighbourhoodUsage() {
-        energyMeterService.checkNeighbourhoodUsage();
-    }
+//    @Scheduled(fixedRate = CHECK_NEIGHBOURHOOD_USAGE_PERIOD)
+//    public void checkNeighbourhoodUsage() {
+//        energyMeterService.checkNeighbourhoodUsage();
+//    }
 
-    @Scheduled(fixedRate = CHECK_METER_SUSPICIOUS_USAGE_PERIOD)
+    @Scheduled(fixedRate = CHECK_METER_SUSPICIOUS_USAGE_PERIOD, initialDelay = 30*1000)
     public void checkMeterSuspiciousUsage() {
         energyMeterService.checkMeterSuspiciousUsage();
     }

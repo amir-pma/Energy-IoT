@@ -22,8 +22,8 @@ public class TariffController {
         return tariffService.getTariffCost(neighbourhoodId);
     }
 
-    @GetMapping("/neighbourhoodIds")
-    public List<Long> getCostPerKWH() {
+        @GetMapping("/neighbourhoodIds")
+    public List<Long> getAllNeighbourhoodIds() {
         return tariffService.getAllNeighbourhoodIds();
     }
 

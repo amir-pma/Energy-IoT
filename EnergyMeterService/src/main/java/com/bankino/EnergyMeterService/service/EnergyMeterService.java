@@ -7,6 +7,7 @@ import com.bankino.EnergyMeterService.model.EnergyMeter;
 import com.bankino.EnergyMeterService.model.MeterData;
 import com.bankino.EnergyMeterService.repository.EnergyMeterRepository;
 import com.bankino.EnergyMeterService.repository.MeterDataRepository;
+import com.bankino.EnergyMeterService.scheduled.EnergyMeterScheduledMonitor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
@@ -32,6 +33,7 @@ public class EnergyMeterService {
     private static final String ENERGY_METER_NOT_ADDED_ALERT_TEXT = "Alert: Energy Meter not added for this meter data!";
     private static final String CONSUMPTION_THRESHOLD_ALERT_TEXT = "Alert: Electricity consumption in data too high!";
     private static final String DEACTIVATED_TOO_LONG_ALERT_TEXT = "Alert: Energy meter hasn't sent data in a while!";
+    private static final String SUSPICIOUS_USAGE_ALERT_TEXT = "Alert: Electricity consumption usage is suspicious!";
     private static final double CONSUMPTION_THRESHOLD = 50;
     private static final long ENERGY_METER_ALLOWED_DEACTIVATED_PERIOD = 60 * 1000; // 6*24*60*60*1000 (6 days)
 
@@ -127,13 +129,28 @@ public class EnergyMeterService {
         }
     }
 
-    @Transactional
-    public void checkNeighbourhoodUsage() {
-        restTemplate.getForObject(TARIFF_SERVICE_URL
-    }
+//    @Transactional
+//    public void checkNeighbourhoodUsage() {
+//        List<Long> neighbourhoodIds = restTemplate.getForObject(TARIFF_SERVICE_URL+"/neighbourhoodIds", List.class);
+//        Timestamp timestamp = new Timestamp(System.currentTimeMillis() - EnergyMeterScheduledMonitor.CHECK_NEIGHBOURHOOD_USAGE_PERIOD);
+//        List<MeterData> meterDataList = meterDataRepository.findByTimestampGreaterThanEqual(timestamp);
+
+//        sum consumption from meter data inner join energy meter group by neighbourhood id where timestamp < (now - 2h)
+//    }
 
     @Transactional
     public void checkMeterSuspiciousUsage() {
-
+        List<Long> energyMeterIds = energyMeterRepository.getAllIds();
+        Timestamp timestampNow = new Timestamp(System.currentTimeMillis());
+        Timestamp timestampWeakAgo = new Timestamp(System.currentTimeMillis() - 7*24*60*60*1000);
+        Timestamp timestamp2WeakAgo = new Timestamp(System.currentTimeMillis() - 14*24*60*60*1000);
+        for(Long energyMeterId : energyMeterIds) {
+            double sumThisWeak = meterDataRepository.findSumBetweenForEnergyMeter(energyMeterId, timestampWeakAgo, timestampNow);
+            double sumWeakAgo = meterDataRepository.findSumBetweenForEnergyMeter(energyMeterId, timestamp2WeakAgo, timestampWeakAgo);
+            if ((sumWeakAgo != 0) && (sumThisWeak > 5 * sumWeakAgo)) {
+                EnergyMeter energyMeter = energyMeterRepository.getById(energyMeterId);
+                sendAlertMail(DEFAULT_ALERT_MAIL_SUBJECT, energyMeter.getStakeholderEmail(), SUSPICIOUS_USAGE_ALERT_TEXT + " id: " + energyMeter.getId());
+            }
+        }
     }
 }
