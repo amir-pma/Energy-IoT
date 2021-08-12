@@ -79,3 +79,14 @@ Produce A Message:
 
 Consume A Message:
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test
+
+<br />
+
+TODO
+-------------------------
+
+- Adding Config Server
+- Adding centralized logging
+- Adding CI/CD
+- Dockerizing the app
+
