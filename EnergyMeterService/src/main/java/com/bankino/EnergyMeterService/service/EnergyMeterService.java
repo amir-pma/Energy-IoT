@@ -7,7 +7,6 @@ import com.bankino.EnergyMeterService.model.EnergyMeter;
 import com.bankino.EnergyMeterService.model.MeterData;
 import com.bankino.EnergyMeterService.repository.EnergyMeterRepository;
 import com.bankino.EnergyMeterService.repository.MeterDataRepository;
-import com.bankino.EnergyMeterService.scheduled.EnergyMeterScheduledMonitor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
@@ -15,8 +14,6 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.transaction.Transactional;
 import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
 

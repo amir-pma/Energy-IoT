@@ -2,7 +2,6 @@ package com.bankino.EnergyMeterService.repository;
 
 import com.bankino.EnergyMeterService.model.MeterData;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 import java.sql.Timestamp;
