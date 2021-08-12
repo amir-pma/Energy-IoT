@@ -20,12 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f111adbf-14da-406a-ad09-2abc5e92bddc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TariffService/src/main/resources/db/migration/V1__migration.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CloudGayeway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EnergyMeterService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/MeterDataMessageProducer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/MeterDataMessageProducer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/MeterDataMessageProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/MeterDataMessageProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/controller/MessageProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/controller/MessageProducerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/TariffService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/TariffService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TariffService/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../TariffService/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628621181844</updated>
       <workItem from="1628621185739" duration="5412000" />
-      <workItem from="1628780639461" duration="369000" />
+      <workItem from="1628780639461" duration="654000" />
     </task>
     <servers />
   </component>
