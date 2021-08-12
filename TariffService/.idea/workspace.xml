@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d89df82-2c04-45c1-a924-6786106d0df4" name="Default Changelist" comment="" />
+    <list default="true" id="1d89df82-2c04-45c1-a924-6786106d0df4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
