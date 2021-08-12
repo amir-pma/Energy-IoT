@@ -1,6 +1,8 @@
 package com.bankino.MeterDataMessageProducer.controller;
 
 import com.bankino.MeterDataMessageProducer.dto.MeterDataDTO;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.integration.support.MessageBuilder;
@@ -9,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
+@Api(description = "REST API for handling production of transaction messages.")
 public class MessageProducerController {
 
     private final MessageChannel kafkaOutput;
@@ -19,6 +22,7 @@ public class MessageProducerController {
 
     @PostMapping("/energy_meter/data")
     @ResponseStatus(HttpStatus.ACCEPTED)
+    @ApiOperation(value = "Sends meter data transactions through kafka.")
     public MeterDataDTO saveMeterData(@RequestBody MeterDataDTO meterDataDTO) {
         kafkaOutput.send(MessageBuilder.withPayload(meterDataDTO).build());
         return meterDataDTO;

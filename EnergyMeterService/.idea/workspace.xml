@@ -6,9 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac2b1835-6342-445d-aab0-97ae3409745a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hystrix-Dashboard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hystrix-Dashboard/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hystrix-Dashboard/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Hystrix-Dashboard/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/MeterDataMessageProducer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/MeterDataMessageProducer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/MeterDataMessageProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/MeterDataMessageProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/controller/MessageProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MeterDataMessageProducer/src/main/java/com/bankino/MeterDataMessageProducer/controller/MessageProducerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +86,7 @@
       <workItem from="1628521936001" duration="4845000" />
       <workItem from="1628589082940" duration="16949000" />
       <workItem from="1628676644657" duration="1753000" />
-      <workItem from="1628764324329" duration="10222000" />
+      <workItem from="1628764324329" duration="10541000" />
     </task>
     <servers />
   </component>
