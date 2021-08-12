@@ -5,7 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac2b1835-6342-445d-aab0-97ae3409745a" name="Default Changelist" comment="" />
+    <list default="true" id="ac2b1835-6342-445d-aab0-97ae3409745a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/service/AlertService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlertService/src/main/java/com/bankino/AlertService/service/AlertService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +80,7 @@
       <workItem from="1628521936001" duration="4845000" />
       <workItem from="1628589082940" duration="16949000" />
       <workItem from="1628676644657" duration="1753000" />
-      <workItem from="1628764324329" duration="12634000" />
+      <workItem from="1628764324329" duration="13040000" />
     </task>
     <servers />
   </component>

@@ -26,19 +26,29 @@ public class AlertService {
             throw new ValidationException("Alert email is wrong or empty");
         }
 
-        JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
-        mailSender.setHost(emailConfig.getHost());
-        mailSender.setPort(emailConfig.getPort());
-        mailSender.setUsername(emailConfig.getUsername());
-        mailSender.setPassword(emailConfig.getPassword());
+        JavaMailSenderImpl mailSender = makeMailSender();
 
+        SimpleMailMessage mailMessage = makeMail(alert);
+
+        mailSender.send(mailMessage);
+
+    }
+
+    private SimpleMailMessage makeMail(Alert alert) {
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setFrom(FROM_EMAIL);
         mailMessage.setTo(alert.getToEmail());
         mailMessage.setSubject(alert.getMailSubject());
         mailMessage.setText(alert.getMailText());
+        return mailMessage;
+    }
 
-        mailSender.send(mailMessage);
-
+    private JavaMailSenderImpl makeMailSender() {
+        JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
+        mailSender.setHost(emailConfig.getHost());
+        mailSender.setPort(emailConfig.getPort());
+        mailSender.setUsername(emailConfig.getUsername());
+        mailSender.setPassword(emailConfig.getPassword());
+        return mailSender;
     }
 }
