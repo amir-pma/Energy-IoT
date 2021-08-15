@@ -73,7 +73,7 @@ ALTER TABLE public.countries OWNER TO energy_iot;
 
 CREATE TABLE public.districts (
     id bigint NOT NULL,
-    name bigint NOT NULL,
+    name character varying(255) NOT NULL,
     city_id bigint NOT NULL,
     tariff_id bigint
 );
